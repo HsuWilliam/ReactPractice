@@ -2,6 +2,7 @@ npm init react-app myapp
 
 npm start
 
+https://weichin.gitbook.io/react-implement/ch2-deploy-react/2-react-bootstrap
 
 # Getting Started with Create React App
 
