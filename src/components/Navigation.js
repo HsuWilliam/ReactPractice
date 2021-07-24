@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 class Navigation extends Component{
     render(){
@@ -9,7 +10,9 @@ class Navigation extends Component{
                     <button className="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav ms-auto my-2 my-lg-0">
+                            <Link to="/Login/">
                             <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
+                            </Link>
                             <li className="nav-item"><a className="nav-link" href="#services">Services</a></li>
                             <li className="nav-item"><a className="nav-link" href="#portfolio">Portfolio</a></li>
                             <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
