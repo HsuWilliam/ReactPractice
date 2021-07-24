@@ -5,6 +5,7 @@ class Login extends Component{
         return(
             <div>
                 <div>This is Login Page test!</div>
+                <div>This is Login Page test!</div>
             </div>
         )
     }
